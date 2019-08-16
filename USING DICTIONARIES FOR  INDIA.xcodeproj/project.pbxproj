@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83315C832306BC7D006D1F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83315C822306BC7D006D1F05 /* AppDelegate.swift */; };
+		83315C852306BC7D006D1F05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83315C842306BC7D006D1F05 /* ViewController.swift */; };
+		83315C882306BC7D006D1F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83315C862306BC7D006D1F05 /* Main.storyboard */; };
+		83315C8A2306BC7D006D1F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83315C892306BC7D006D1F05 /* Assets.xcassets */; };
+		83315C8D2306BC7D006D1F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83315C8B2306BC7D006D1F05 /* LaunchScreen.storyboard */; };
+		83315C982306BC7D006D1F05 /* USING_DICTIONARIES_FOR__INDIATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83315C972306BC7D006D1F05 /* USING_DICTIONARIES_FOR__INDIATests.swift */; };
+		83315CA32306BC7D006D1F05 /* USING_DICTIONARIES_FOR__INDIAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83315CA22306BC7D006D1F05 /* USING_DICTIONARIES_FOR__INDIAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83315C942306BC7D006D1F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83315C772306BC7D006D1F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83315C7E2306BC7D006D1F05;
+			remoteInfo = "USING DICTIONARIES FOR  INDIA";
+		};
+		83315C9F2306BC7D006D1F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83315C772306BC7D006D1F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83315C7E2306BC7D006D1F05;
+			remoteInfo = "USING DICTIONARIES FOR  INDIA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83315C7F2306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USING DICTIONARIES FOR  INDIA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83315C822306BC7D006D1F05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83315C842306BC7D006D1F05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83315C872306BC7D006D1F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83315C892306BC7D006D1F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83315C8C2306BC7D006D1F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83315C8E2306BC7D006D1F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83315C932306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "USING DICTIONARIES FOR  INDIATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83315C972306BC7D006D1F05 /* USING_DICTIONARIES_FOR__INDIATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USING_DICTIONARIES_FOR__INDIATests.swift; sourceTree = "<group>"; };
+		83315C992306BC7D006D1F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83315C9E2306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "USING DICTIONARIES FOR  INDIAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83315CA22306BC7D006D1F05 /* USING_DICTIONARIES_FOR__INDIAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USING_DICTIONARIES_FOR__INDIAUITests.swift; sourceTree = "<group>"; };
+		83315CA42306BC7D006D1F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83315C7C2306BC7D006D1F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83315C902306BC7D006D1F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83315C9B2306BC7D006D1F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83315C762306BC7D006D1F05 = {
+			isa = PBXGroup;
+			children = (
+				83315C812306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIA */,
+				83315C962306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIATests */,
+				83315CA12306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIAUITests */,
+				83315C802306BC7D006D1F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83315C802306BC7D006D1F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83315C7F2306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIA.app */,
+				83315C932306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIATests.xctest */,
+				83315C9E2306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83315C812306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIA */ = {
+			isa = PBXGroup;
+			children = (
+				83315C822306BC7D006D1F05 /* AppDelegate.swift */,
+				83315C842306BC7D006D1F05 /* ViewController.swift */,
+				83315C862306BC7D006D1F05 /* Main.storyboard */,
+				83315C892306BC7D006D1F05 /* Assets.xcassets */,
+				83315C8B2306BC7D006D1F05 /* LaunchScreen.storyboard */,
+				83315C8E2306BC7D006D1F05 /* Info.plist */,
+			);
+			path = "USING DICTIONARIES FOR  INDIA";
+			sourceTree = "<group>";
+		};
+		83315C962306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIATests */ = {
+			isa = PBXGroup;
+			children = (
+				83315C972306BC7D006D1F05 /* USING_DICTIONARIES_FOR__INDIATests.swift */,
+				83315C992306BC7D006D1F05 /* Info.plist */,
+			);
+			path = "USING DICTIONARIES FOR  INDIATests";
+			sourceTree = "<group>";
+		};
+		83315CA12306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83315CA22306BC7D006D1F05 /* USING_DICTIONARIES_FOR__INDIAUITests.swift */,
+				83315CA42306BC7D006D1F05 /* Info.plist */,
+			);
+			path = "USING DICTIONARIES FOR  INDIAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83315C7E2306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83315CA72306BC7D006D1F05 /* Build configuration list for PBXNativeTarget "USING DICTIONARIES FOR  INDIA" */;
+			buildPhases = (
+				83315C7B2306BC7D006D1F05 /* Sources */,
+				83315C7C2306BC7D006D1F05 /* Frameworks */,
+				83315C7D2306BC7D006D1F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "USING DICTIONARIES FOR  INDIA";
+			productName = "USING DICTIONARIES FOR  INDIA";
+			productReference = 83315C7F2306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83315C922306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83315CAA2306BC7D006D1F05 /* Build configuration list for PBXNativeTarget "USING DICTIONARIES FOR  INDIATests" */;
+			buildPhases = (
+				83315C8F2306BC7D006D1F05 /* Sources */,
+				83315C902306BC7D006D1F05 /* Frameworks */,
+				83315C912306BC7D006D1F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83315C952306BC7D006D1F05 /* PBXTargetDependency */,
+			);
+			name = "USING DICTIONARIES FOR  INDIATests";
+			productName = "USING DICTIONARIES FOR  INDIATests";
+			productReference = 83315C932306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83315C9D2306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83315CAD2306BC7D006D1F05 /* Build configuration list for PBXNativeTarget "USING DICTIONARIES FOR  INDIAUITests" */;
+			buildPhases = (
+				83315C9A2306BC7D006D1F05 /* Sources */,
+				83315C9B2306BC7D006D1F05 /* Frameworks */,
+				83315C9C2306BC7D006D1F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83315CA02306BC7D006D1F05 /* PBXTargetDependency */,
+			);
+			name = "USING DICTIONARIES FOR  INDIAUITests";
+			productName = "USING DICTIONARIES FOR  INDIAUITests";
+			productReference = 83315C9E2306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83315C772306BC7D006D1F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Syed.Reshma Ruksana";
+				TargetAttributes = {
+					83315C7E2306BC7D006D1F05 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					83315C922306BC7D006D1F05 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83315C7E2306BC7D006D1F05;
+					};
+					83315C9D2306BC7D006D1F05 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83315C7E2306BC7D006D1F05;
+					};
+				};
+			};
+			buildConfigurationList = 83315C7A2306BC7D006D1F05 /* Build configuration list for PBXProject "USING DICTIONARIES FOR  INDIA" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83315C762306BC7D006D1F05;
+			productRefGroup = 83315C802306BC7D006D1F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83315C7E2306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIA */,
+				83315C922306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIATests */,
+				83315C9D2306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83315C7D2306BC7D006D1F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83315C8D2306BC7D006D1F05 /* LaunchScreen.storyboard in Resources */,
+				83315C8A2306BC7D006D1F05 /* Assets.xcassets in Resources */,
+				83315C882306BC7D006D1F05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83315C912306BC7D006D1F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83315C9C2306BC7D006D1F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83315C7B2306BC7D006D1F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83315C852306BC7D006D1F05 /* ViewController.swift in Sources */,
+				83315C832306BC7D006D1F05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83315C8F2306BC7D006D1F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83315C982306BC7D006D1F05 /* USING_DICTIONARIES_FOR__INDIATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83315C9A2306BC7D006D1F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83315CA32306BC7D006D1F05 /* USING_DICTIONARIES_FOR__INDIAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83315C952306BC7D006D1F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83315C7E2306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIA */;
+			targetProxy = 83315C942306BC7D006D1F05 /* PBXContainerItemProxy */;
+		};
+		83315CA02306BC7D006D1F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83315C7E2306BC7D006D1F05 /* USING DICTIONARIES FOR  INDIA */;
+			targetProxy = 83315C9F2306BC7D006D1F05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83315C862306BC7D006D1F05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83315C872306BC7D006D1F05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83315C8B2306BC7D006D1F05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83315C8C2306BC7D006D1F05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83315CA52306BC7D006D1F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83315CA62306BC7D006D1F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83315CA82306BC7D006D1F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "USING DICTIONARIES FOR  INDIA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BRN.USING-DICTIONARIES-FOR--INDIA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83315CA92306BC7D006D1F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "USING DICTIONARIES FOR  INDIA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BRN.USING-DICTIONARIES-FOR--INDIA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83315CAB2306BC7D006D1F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "USING DICTIONARIES FOR  INDIATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BRN.USING-DICTIONARIES-FOR--INDIATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USING DICTIONARIES FOR  INDIA.app/USING DICTIONARIES FOR  INDIA";
+			};
+			name = Debug;
+		};
+		83315CAC2306BC7D006D1F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "USING DICTIONARIES FOR  INDIATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BRN.USING-DICTIONARIES-FOR--INDIATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USING DICTIONARIES FOR  INDIA.app/USING DICTIONARIES FOR  INDIA";
+			};
+			name = Release;
+		};
+		83315CAE2306BC7D006D1F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "USING DICTIONARIES FOR  INDIAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BRN.USING-DICTIONARIES-FOR--INDIAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "USING DICTIONARIES FOR  INDIA";
+			};
+			name = Debug;
+		};
+		83315CAF2306BC7D006D1F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "USING DICTIONARIES FOR  INDIAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BRN.USING-DICTIONARIES-FOR--INDIAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "USING DICTIONARIES FOR  INDIA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83315C7A2306BC7D006D1F05 /* Build configuration list for PBXProject "USING DICTIONARIES FOR  INDIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83315CA52306BC7D006D1F05 /* Debug */,
+				83315CA62306BC7D006D1F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83315CA72306BC7D006D1F05 /* Build configuration list for PBXNativeTarget "USING DICTIONARIES FOR  INDIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83315CA82306BC7D006D1F05 /* Debug */,
+				83315CA92306BC7D006D1F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83315CAA2306BC7D006D1F05 /* Build configuration list for PBXNativeTarget "USING DICTIONARIES FOR  INDIATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83315CAB2306BC7D006D1F05 /* Debug */,
+				83315CAC2306BC7D006D1F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83315CAD2306BC7D006D1F05 /* Build configuration list for PBXNativeTarget "USING DICTIONARIES FOR  INDIAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83315CAE2306BC7D006D1F05 /* Debug */,
+				83315CAF2306BC7D006D1F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83315C772306BC7D006D1F05 /* Project object */;
+}
